@@ -5,7 +5,7 @@ def my_select(collection)
     if yield(collection[i]) == true 
     result.push(collection[i])
   end
-  count += 1 
+  i += 1 
 end
 result
 end
